@@ -76,4 +76,5 @@ if st.button("Run Deep Financial Analysis"):
 
     st.subheader("AI Strategic Recommendations")
     for rec in result["recommendations"]:
+
         st.write("•", rec)
